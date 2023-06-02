@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NationalParkAPI</name>
+    </assembly>
+    <members>
+        <member name="M:NationalParkAPI.Controllers.NationalParksController.GetAllNationalParks">
+            <summary>
+            Get list of all the national parks.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.NationalParksController.GetNationalPark(System.Int32)">
+            <summary>
+            Get only one national park.
+            </summary>
+            <param name="nationalParkId">The Id of the National Park</param>
+            <returns></returns>
+        </member>
+        <member name="M:TrailAPI.Controllers.TrailsController.GetAllTrails">
+            <summary>
+            Get list of all the trails.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TrailAPI.Controllers.TrailsController.GetTrail(System.Int32)">
+            <summary>
+            Get only one trail.
+            </summary>
+            <param name="trailId">The Id of the National Park</param>
+            <returns></returns>
+        </member>
+        <member name="M:TrailAPI.Controllers.TrailsController.CreateTrail(NationalParkAPI.Models.Dtos.TrailCreateDto)">
+            <summary>
+            This Comment lines were generated automatically by Swashbukle
+            Just press /3x
+            </summary>
+            <param name="trailDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
